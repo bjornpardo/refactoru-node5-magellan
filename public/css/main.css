@@ -1,0 +1,35 @@
+.sev {
+	background-image: url('http://travelioo.com/img/Seville-Photo5.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.container{
+	margin: 0 auto;
+}
+
+/*.can {
+	background-color: black;
+}*/
+.container{
+	background-color: rgba(255,255,255,1);
+	margin-top: 100px;
+
+}
+p {
+	width: 80%;
+}
+
+ul{
+	
+}
+li{
+	list-style-type: none;
+
+}
+a { 
+	color: pink; 
+	text-decoration: none;
+
+} 
