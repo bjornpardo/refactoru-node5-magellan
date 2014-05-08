@@ -1,35 +1,114 @@
-.sev {
-	background-image: url('http://travelioo.com/img/Seville-Photo5.jpg');
+/*.sev {
+	background-image: url('http://www.lvaic.org/assets/base/images/Seville-spain.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
+}*/
 
+
+.sev {
+	margin: 0 auto;
+	width: 1200px;
+	background: linear-gradient(
+      rgba(2, 164, 211, 0.55), 
+      rgba(2, 164, 211, 0.55)
+    ),
+  	url('http://www.lvaic.org/assets/base/images/Seville-spain.jpg');
 }
 
-.container{
+.can {
 	margin: 0 auto;
+	width: 1200px;
+	background: linear-gradient(
+      rgba(2, 164, 211, 0.55), 
+      rgba(2, 164, 211, 0.55)
+    ),
+  	url('http://www.blogcdn.com/travel.aol.co.uk/media/2011/07/cnrsacgrncnra1300a-1311681299.jpg');	
+}
+
+.cap {
+	margin: 0 auto;
+	width: 1200px;
+	background: linear-gradient(
+      rgba(2, 164, 211, 0.55), 
+      rgba(2, 164, 211, 0.55)
+    ),
+  	url('http://4.bp.blogspot.com/--knnNqzlrlo/TjB7gVnVbbI/AAAAAAAAEGY/BFOgsetdOpk/s1600/DSC00610.JPG');	
+}
+
+.str {
+	margin: 0 auto;
+	width: 1200px;
+	background: linear-gradient(
+      rgba(2, 164, 211, 0.55), 
+      rgba(2, 164, 211, 0.55)
+    ),
+  	url('http://1.bp.blogspot.com/_ExFr8MgzidY/TFuGPhZZxrI/AAAAAAAAAtg/QDGX9-sfDw4/s1600/South+American+2010+1+801.JPG');	
+}
+
+.gua {
+	margin: 0 auto;
+	width: 1200px;
+	background: linear-gradient(
+      rgba(2, 164, 211, 0.55), 
+      rgba(2, 164, 211, 0.55)
+    ),
+  	url('http://upload.wikimedia.org/wikipedia/commons/2/28/Hagatna_from_Fort_Santa_Agueda.JPG');	
+}
+
+.phi {
+	margin: 0 auto;
+	width: 1200px;
+	background: linear-gradient(
+      rgba(2, 164, 211, 0.5), 
+      rgba(2, 164, 211, 0.5)
+    ),
+  	url('http://4.bp.blogspot.com/-SfQU7tENXRA/UO72H3JgiGI/AAAAAAAABVM/kSWppxvgUOs/s1600/Banaue+Rice+Terraces.jpg');	
 }
 
 /*.can {
 	background-color: black;
 }*/
-.container{
-	background-color: rgba(255,255,255,1);
-	margin-top: 100px;
 
+.container{
+	/*background-color: rgba(255,255,255,1);*/
+	margin-top: 100px;
+	color: white;
+	font-family: helvetica;
 }
+
 p {
 	width: 80%;
 }
 
-ul{
-	
+ul {
+	margin: 0 auto;
+	width: 800px;
 }
+
 li{
 	list-style-type: none;
-
+	display: inline;
+	margin: 10px;
+	font-family: helvetica;
 }
-a { 
-	color: pink; 
-	text-decoration: none;
 
+a { 
+	color: goldenrod; 
+	text-decoration: none;
 } 
+
+h1 {
+	text-align: center;
+}
+
+#right {
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+}
+
+#left {
+	position: fixed;
+	bottom: 40px;
+	left: 40px;
+}

@@ -2,6 +2,7 @@ doctype html
 html
 	head
 		title Welcome Page
+		link(href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css', rel='stylesheet')
 		link(href='CSS/main.css', rel='stylesheet')
 		block content
 	footer 
@@ -18,4 +19,10 @@ html
 				a(href='/guam') Guam
 			li 
 				a(href='/philippines') Philippines
+
+	a.next(href='/seville')
+		i#left.fa.fa-chevron-circle-left.fa-5x
+
+	a.next(href='/seville')
+		i#right.fa.fa-chevron-circle-right.fa-5x
 			
