@@ -89,7 +89,7 @@ app.all('*', function(req, res) {
   res.redirect('/unknown');
 });
 
-// change port to allow heroku, change port in app.listen from number to "port"
+// changed port to allow heroku, changed port in app.listen from 8308 to "port"
 var port = process.env.PORT || 8308
 
 var server = app.listen(port, function() {
