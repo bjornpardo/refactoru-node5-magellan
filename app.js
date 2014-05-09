@@ -89,7 +89,8 @@ app.all('*', function(req, res) {
   res.redirect('/unknown');
 });
 
-change port to allow heroku, var port = process.env.PORT || 8308
+// change port to allow heroku, change port in app.listen from number to "port"
+var port = process.env.PORT || 8308
 
 var server = app.listen(port, function() {
 	console.log('Express server listening on port ' + server.address().port);
